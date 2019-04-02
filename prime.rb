@@ -20,3 +20,4 @@ def prime?(integer)
 end
 
 
+prime?(3)
