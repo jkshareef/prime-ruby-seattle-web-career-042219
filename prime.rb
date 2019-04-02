@@ -16,7 +16,6 @@ def prime?(integer)
     if integer % number == 0
     return false
     end
-    puts true
   end
     return true
 end
