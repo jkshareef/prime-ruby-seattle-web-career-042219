@@ -4,12 +4,12 @@ def prime?(integer)
     integer = integer*-1
   end
   if integer == 2
-    true
+    return true
   end
   for number in 2..integer-1 do
     if integer % number == 0
-      false
+      return false
     end
-    true
+    return true
   end
 end
