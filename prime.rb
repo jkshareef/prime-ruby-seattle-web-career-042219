@@ -11,8 +11,8 @@ def prime?(integer)
     return false
   end
   for number in 2..integer-1 do
+    puts integer % number
     if integer % number == 0
-      puts integer % number
       return false
     end
     return true
