@@ -7,6 +7,8 @@ def prime?(integer)
     return true
   elsif integer == 1
     return false
+  elsif integer = 0
+    return false
   end
   for number in 2..integer-1 do
     if integer % number == 0
