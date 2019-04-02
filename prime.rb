@@ -13,7 +13,6 @@ def prime?(integer)
     return true
   end
   for number in 2..integer/2
-    puts "#{integer} / #{number} = #{integer/number} remainder #{integer%number}"
     if integer % number == 0
     return false
     end
