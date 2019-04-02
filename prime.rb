@@ -11,10 +11,12 @@ def prime?(integer)
     return false
   end
   for number in 2..integer-1 do
-    puts integer % number
+    puts "#{integer} / #{number} = #{integer/number} remainder #{integer%number}"
     if integer % number == 0
       return false
     end
     return true
   end
 end
+
+prime?(1763)
