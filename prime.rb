@@ -12,7 +12,7 @@ def prime?(integer)
   end
   for number in 2..integer-1 do
     if integer % number == 0
-    puts integer % number
+      puts integer % number
       return false
     end
     return true
