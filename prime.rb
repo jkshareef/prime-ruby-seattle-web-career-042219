@@ -10,7 +10,7 @@ def prime?(integer)
   elsif integer == 0
     return false
   end
-  for number in 2..integer-1
+  for number in 2..integer/2
     puts "#{integer} / #{number} = #{integer/number} remainder #{integer%number}"
     if integer % number == 0
       puts false
