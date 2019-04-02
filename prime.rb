@@ -14,10 +14,10 @@ def prime?(integer)
     puts "#{integer} / #{number} = #{integer/number} remainder #{integer%number}"
     if integer % number == 0
       puts false
-      false
+      return false
     end
     puts true
-    true
+    return true
   end
 end
 
